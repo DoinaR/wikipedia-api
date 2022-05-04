@@ -26,7 +26,7 @@ const fetchPages = async (searchValue) => {
         '<div class="error">no matching results. Please try again</div>'
       return
     }
-    displayResults(results)
+    displayResults(wiki_results)
   } catch (error) {
     results.innerHTML = '<div class="error">There was an error...<div>'
   }
